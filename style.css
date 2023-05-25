@@ -1,0 +1,107 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-wrap: nowrap;
+}
+
+.navWrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 33px;
+    padding: 0px 20px;
+}
+
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navItems{
+   padding: 8px 24px;
+   margin: auto 0;
+   color:#506690;
+}
+
+.buyButton{
+    border:none;
+    border-radius: 8px;
+    color: white;
+    background-color: #335eea;
+    font-weight: bold;
+    font-size: 20px;
+    width: 130px;
+    height: 60px;
+}
+
+.welcWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 33px;
+    padding: 0px 20px;
+    padding-top: 96px;
+}
+
+#welcPic{
+    width: 50%;
+}
+
+.welcTitle{
+    font-size: 40px;
+    margin: 4px 0px;
+}
+
+#welcParg{
+    margin: 30px 0px;
+}
+
+.welcText{
+    color:#869ab8;
+    font-size: 20px;
+    margin: 4px 0px;
+}
+
+.viewAllButton{
+    border:none;
+    border-radius: 10px;
+    color: white;
+    background-color: #335eea;
+    font-size: 15px;
+    width: 190px;
+    height: 60px;
+
+}
+
+.fa{
+    padding: 0 3px;
+}
+
+.viewDocButton{
+    border:none;
+    border-radius: 10px;
+    color: #335eea;
+    background-color: rgba(51,94,234,0.1);
+    font-size: 15px;
+    width: 165px;
+    height: 60px;
+
+}
+
+.featHighlights{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 33px;
+    padding: 96px 20px;
+
+}
+
+.featPara{
+    display: block;
+}
+
+.featTitle{
+    font-size: 25px;
+}
+
+.featText{
+    color:#869ab8;
+}
